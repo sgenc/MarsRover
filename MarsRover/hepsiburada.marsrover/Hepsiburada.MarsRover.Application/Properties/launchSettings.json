@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "hepsiburada.marsrover.application": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

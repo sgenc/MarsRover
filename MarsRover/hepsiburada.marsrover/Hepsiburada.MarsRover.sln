@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.Core", "Hepsiburada.MarsRover.Core\Hepsiburada.MarsRover.Core.csproj", "{EE96C16A-51CD-460A-9F4A-3203609BE4E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.Application", "Hepsiburada.MarsRover.Application\Hepsiburada.MarsRover.Application.csproj", "{89509D11-BD5B-43FE-9F4D-F158D79DF001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.IOC", "Hepsiburada.MarsRover.IOC\Hepsiburada.MarsRover.IOC.csproj", "{7E9D6094-2433-4C42-8736-60F6B4C47264}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.Validator", "Hepsiburada.MarsRover.Validator\Hepsiburada.MarsRover.Validator.csproj", "{99A3F37C-D7A6-426C-A97D-45B20DFDF482}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.Service", "Hepsiburada.MarsRover.Service\Hepsiburada.MarsRover.Service.csproj", "{9079ECDB-B087-4378-A187-C5484368B3DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hepsiburada.MarsRover.Test", "Hepsiburada.MarsRover.Test\Hepsiburada.MarsRover.Test.csproj", "{282ED2AD-B096-42BE-98C6-AE51DF3854EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E83388E-7E30-4899-9F54-2C8D799F62C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{627385E1-ACFE-419C-97D2-14DDACEAF12F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F61B0B01-2209-40BC-92CC-91AA64162C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE96C16A-51CD-460A-9F4A-3203609BE4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE96C16A-51CD-460A-9F4A-3203609BE4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE96C16A-51CD-460A-9F4A-3203609BE4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE96C16A-51CD-460A-9F4A-3203609BE4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89509D11-BD5B-43FE-9F4D-F158D79DF001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89509D11-BD5B-43FE-9F4D-F158D79DF001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89509D11-BD5B-43FE-9F4D-F158D79DF001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89509D11-BD5B-43FE-9F4D-F158D79DF001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9D6094-2433-4C42-8736-60F6B4C47264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9D6094-2433-4C42-8736-60F6B4C47264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9D6094-2433-4C42-8736-60F6B4C47264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9D6094-2433-4C42-8736-60F6B4C47264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A3F37C-D7A6-426C-A97D-45B20DFDF482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A3F37C-D7A6-426C-A97D-45B20DFDF482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A3F37C-D7A6-426C-A97D-45B20DFDF482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A3F37C-D7A6-426C-A97D-45B20DFDF482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9079ECDB-B087-4378-A187-C5484368B3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079ECDB-B087-4378-A187-C5484368B3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079ECDB-B087-4378-A187-C5484368B3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079ECDB-B087-4378-A187-C5484368B3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282ED2AD-B096-42BE-98C6-AE51DF3854EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282ED2AD-B096-42BE-98C6-AE51DF3854EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282ED2AD-B096-42BE-98C6-AE51DF3854EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282ED2AD-B096-42BE-98C6-AE51DF3854EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61B0B01-2209-40BC-92CC-91AA64162C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61B0B01-2209-40BC-92CC-91AA64162C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61B0B01-2209-40BC-92CC-91AA64162C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61B0B01-2209-40BC-92CC-91AA64162C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE96C16A-51CD-460A-9F4A-3203609BE4E1} = {8E83388E-7E30-4899-9F54-2C8D799F62C1}
+		{89509D11-BD5B-43FE-9F4D-F158D79DF001} = {8E83388E-7E30-4899-9F54-2C8D799F62C1}
+		{7E9D6094-2433-4C42-8736-60F6B4C47264} = {8E83388E-7E30-4899-9F54-2C8D799F62C1}
+		{99A3F37C-D7A6-426C-A97D-45B20DFDF482} = {8E83388E-7E30-4899-9F54-2C8D799F62C1}
+		{9079ECDB-B087-4378-A187-C5484368B3DB} = {8E83388E-7E30-4899-9F54-2C8D799F62C1}
+		{282ED2AD-B096-42BE-98C6-AE51DF3854EF} = {627385E1-ACFE-419C-97D2-14DDACEAF12F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49EDABE2-7B9E-4682-A7FB-1641AAA79E2F}
+	EndGlobalSection
+EndGlobal
